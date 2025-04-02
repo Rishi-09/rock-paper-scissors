@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(41, 40, 40);
+}
+
+main{
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    margin: 20px;
+    padding: 50px;
+}
+
+h1,p {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: wheat;
+    font-size: 2em;
+    font-weight: 2em;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.img:hover {
+    transform: scale(1.4);
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.com {
+    transform: rotate(180deg);
+    width: 60px;
+    height: 60px;
+}
+.choice-bar {
+    width: 100px;
+}
+
+.choice {
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
